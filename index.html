@@ -13,50 +13,89 @@
     <!--menu icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"/>
     <!--title-->
-    <title>Fitness Website</title>
+    <title>OneCoach</title>
    </head>
    
-   <body>   
+   <body>  
+    
+    <!--sidebar-->
+        <div id="sidebar">
+
+            <i class="far fa-window-close close"></i>
+         <nav> 
+            <a href="#landing">Home</a> 
+            <a href="#about">About Us</a> 
+            <a href="#credits">Credits</a>      
+         </nav>
+        </div>
+
     <!--Title page-->
     <section id="landing">
-     <header class="landing-page"> 
-       
+
+      <header class="landing-page"> 
         <div class="container">
             <h1>OneCoach</h1>  
             <nav> 
-                <a href="">Home</a> 
-                <a href="">About Us</a>      
+                <a href="#landing">Home</a> 
+                <a href="#about">About Us</a> 
+                <a href="">Credits</a>      
             </nav>
             <div class="menu">
                 <i class="fa-solid fa-bars"></i>
                 <div class="menu-bars"></div>
             </div>
         </div>
-     </header>
+       </header>
+
      <!--"Get Started" prompt-->
       <div class="prompt">
        <h1>Start your <br>transformation today!</br></h1>
-       <a href="">Get Started</a>
+       <a href="../html/choosePlan.html">Get Started</a>
       </div>
-    </div>
     </section>
+    
     <!--End of home page-->
     <!--Start of about us-->
-    <section id="reason">
-        <h1 class="title">Our Mission</h1>
-        <div class="container">
-            <div class="unit">
-                <div class="overlay-1">
-                    <h1>We are a team of three friends working on this website to create a dynamic fitness plan for people of all ages</h1>
-                </div>
-                 <div class="overlay-2">
-                    <h1>The website will offer fitness routines of varying degrees of intensity</h1>
-                </div>
-                 <div class="overlay-3">
-                    <h1>Start your fitness journey and transform your lifestyle</h1>
-                </div>
+    <section id="about" class="about-us">
+            <div class="about-image">
+                <img src="../img/landing-page/aboutUs3.jpg">
             </div>
-        </div>
+            <div class="about-mission">
+                <h1 class="about-title">Our mission</h1>
+                    <p>Comprising of three friends, our team was formed with the dedication to improving general well-being and physical fitness, working on this website to create a dynamic bodyweight fitness plan for people of all ages.  </p>
+                    <p>All fitness routines will target muscle groups each session. Whether your hardcore or casual, we will offer fitness routines of varying degrees of intensity.</p>
+                    <p>Start your fitness journey and transform your lifestyle through OneCoach</p>
+            </div>
     </section>
+    <!--End of about us page-->
+
+    <!--Start of credits page-->
+    <section id="credits" class="Credits">
+        <div class="credits-section">
+            <!--Title of credits-->
+            <h1>Disclaimer</h1>
+            <hr>
+            <h2>Any images used are solely for illustrative purposes and does not imply endorsement by any people or brands on the imagery of OneCoach, nor discrimination against similar brands, products or services not mentioned.</h2>
+            <h1>Credits</h1>
+            <hr>
+            <!--All image credits-->
+                <img src="../img/landing-page/landing-image.jpg">
+                <h2>"Person Holding Barbell", by Victor Freitas. Accessed via <a href="https://www.pexels.com/photo/person-holding-barbell-841130/">https://www.pexels.com/photo/person-holding-barbell-841130/</a>, licensed under Pexels license</h2>
+                
+                <img src="../img/landing-page/aboutUs3.jpg">
+                <h2>"Woman Doing Exercise", by Pixabay. Accessed via <a href="https://www.pexels.com/photo/woman-doing-exercise-414029/">https://www.pexels.com/photo/woman-doing-exercise-414029/</a>, licensed under CC0</h2>
+               
+                <img src="../img/choose-plan/casual-Routine.jpg">
+                <h2>"Man Push-up on White Floor", by Keiji Yoshiki. Accessed via <a href="https://www.pexels.com/photo/man-push-up-on-white-floor-176782/">https://www.pexels.com/photo/man-push-up-on-white-floor-176782/</a>, licensed under Pexels license</h2>
+                
+                <img src="../img/choose-plan/hardcore-Routine.jpg">
+                <h2>"man in black t-shirt and black pants doing exercise", by Gordon Cowie. Accessed via <a href="https://unsplash.com/photos/man-in-black-t-shirt-and-black-pants-doing-exercise-TZ7E4rWxSro">https://unsplash.com/photos/man-in-black-t-shirt-and-black-pants-doing-exercise-TZ7E4rWxSro</a>, licensed under Unsplash Liceense</h2>
+
+        </div>
+
+    </section>
+
+    <script src="../js/script.js"></script>
+
    </body>
 </html>
