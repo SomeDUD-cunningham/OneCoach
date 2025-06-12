@@ -51,6 +51,18 @@ a:hover {
     .about-mission .about-title {
         font-size: 1.9rem;
     }
+    #landing, #credits, #about {
+        overflow-x: hidden;
+    }
+
+    .casual-picture img, .hardcore-picture img {
+        display:none;
+    }
+
+    #hardcore-Routine table tr th, #hardcore-Routine table tr td{
+        font-size: 0.6rem;
+    }
+
 }
 
 .container {
