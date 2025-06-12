@@ -63,6 +63,10 @@ a:hover {
         font-size: 0.6rem;
     }
 
+    .plans .casual-picture a h2, .plans .hardcore-picture a h2 {
+        font-size: 1.8rem; 
+    }
+
 }
 
 .container {
